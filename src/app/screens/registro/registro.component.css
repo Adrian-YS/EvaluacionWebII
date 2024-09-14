@@ -1,0 +1,63 @@
+/* Estilo general para un login más compacto */
+.login-container {
+    width: 300px; /* Más pequeño, tamaño típico de login */
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 10px; /* Espacio reducido entre los campos */
+  }
+  
+  label {
+    font-size: 14px; /* Tamaño de letra más pequeño */
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px; /* Relleno más pequeño */
+    font-size: 14px; /* Tamaño de texto reducido */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  input:focus, select:focus {
+    border-color: #007bff; /* Cambia el borde cuando se enfoca */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra cuando se enfoca */
+  }
+  
+  button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 8px; /* Tamaño reducido */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; /* Tamaño de letra más pequeño */
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Opcional: Centramos el contenido del formulario */
+  h2 {
+    text-align: center;
+    font-size: 18px; /* Título más pequeño */
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  .titulo{
+    text-align: center;
+  }

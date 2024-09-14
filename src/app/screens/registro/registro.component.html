@@ -1,0 +1,22 @@
+<h1 class="titulo">REGISTRO</h1>
+<form (ngSubmit)="registro(formulario)" class="registro-form" #formulario="ngForm">
+<div class="login-container">
+    <div class="form-group">
+      <label for="usr">Username:</label>
+      <input type="text" class="form-control" id="username" name="username" [(ngModel)]="username">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="password" name="password" [(ngModel)]="password">
+    </div>
+    <div class="form-group">
+      <label for="sel1">Tipo de Acceso:</label>
+      <select class="form-control" id="seleccion" name="seleccion" [(ngModel)]="seleccion">
+        <option>Admin</option>
+        <option>Mesero</option>
+      </select>
+    </div>
+    <button title="Registrarse" type="submit">Registrarse</button>
+  </div>
+</form>
+  
